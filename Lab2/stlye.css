@@ -1,0 +1,28 @@
+.red_box
+{
+    display: grid;
+    grid-template-rows: 1fr;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100vh ;
+    width:100% ;
+    background-color: gray;
+    z-index: 1;
+    align-items: center;
+    opacity: .6;
+}
+
+#modal
+{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    padding: 50px 32px;
+    text-align: center;
+}
+
+.hide
+{
+    display: none;
+}
